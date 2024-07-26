@@ -1,0 +1,70 @@
+
+.header
+{
+    height: 50px;
+    border-top: 2px solid red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-section
+{
+    width: 200px;
+}
+.logo{
+    width: 160px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.middle-section
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portal
+{
+    color: rgb(190, 6, 6);
+    font-weight: bold;
+    font-size: 23px;
+}
+.erp
+{
+    color: blue;
+    font-style: italic;
+}
+.right-section
+{
+    width: 180px;
+    padding-right: 10px;
+}
+.profile-pic
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: rgb(252, 251, 251) solid 1px;
+    outline-offset: -2px;
+
+}
+.pro-img
+{
+    display: flex;
+
+}
+.reg-no
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:750px) {
+    .portal
+    {
+        display: none;
+    }
+        
+    }

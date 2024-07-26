@@ -1,0 +1,18 @@
+.nav
+{
+    height: 50px;
+    background-color: rgb(190, 6, 6);
+}
+.kluerp
+{
+    background-color: rgb(84, 84, 222);
+    width: 120px;
+    height: 60px;
+    font-style: italic;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    /* clip-path: polygon(0% 20%, 60% 20%, 60% 20%, 100% 50%, 60% 80%, 60% 80%, 0% 80%); */
+
+}

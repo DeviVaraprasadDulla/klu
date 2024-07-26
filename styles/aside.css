@@ -1,0 +1,21 @@
+.aside
+{
+    width: 260px;
+    /* background-color: red; */
+    position: absolute;
+    top: 104px;
+    bottom: 0px;
+    left: 1px;
+}
+.aside-frame
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+@media screen and (max-width:750px) {
+   .aside{
+    width: 100%;
+   }
+        
+    }

@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title
+{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome
+{
+    font-size: 20px;
+}
+.regNo
+{
+    font-weight: bold;
+}
+.sec
+{
+   position: absolute;
+   top: 80px;
+   bottom: 0;
+   right: 0;
+   left: 0;
+    
+}
+
+.info
+{
+ height: 200px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color:rgb(149, 216, 247);
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count
+{
+    color: red;
+}
+.box:hover{
+    box-shadow: 0px 18px 30px rgba(0,0,0,0.5);
+    background-color: rgb(37, 105, 148)
+}
+
+.icon
+{
+    font-size: 50px;
+    opacity: 0.8;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link
+{
+    padding-top: 12px;
+    
+}
+.item a{
+    text-decoration: none;
+    font-size: 14px;
+    color:rgb(71, 71, 109);
+}
